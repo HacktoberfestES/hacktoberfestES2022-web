@@ -1,2 +1,2 @@
-# web-hacktoberfest-21
+# hacktoberfestES2021-web
 Web para la HacktoberfestES2021
