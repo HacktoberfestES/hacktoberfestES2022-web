@@ -7435,7 +7435,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #93c2db !important;
 }
 
 .bg-dark {
@@ -10995,15 +10995,16 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: /* url("../assets/img/flores-bottom.png"), url("../assets/img/flores-top.png"),  */radial-gradient(circle, #072540 0, #183d5d 200%);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center center; /* bottom right, top left; */
   background-size: cover;
+  
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11021,33 +11022,33 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-header.masthead {
+  header.masthead {
   padding-top: 17rem;
   padding-bottom: 12.5rem;
-}
-header.masthead .masthead-subheading {
+  }
+  header.masthead .masthead-subheading {
   font-size: 2.25rem;
   font-style: italic;
   line-height: 2.25rem;
   margin-bottom: 4rem;
-}
-header.masthead .masthead-heading {
+  }
+  header.masthead .masthead-heading {
   font-size: 5rem;
   font-weight: 0;
   line-height: 4.5rem;
-}
-header.masthead img{
+  }
+  header.masthead img{
   height: 5rem;
   margin-bottom: 2rem;
-}
-#portfolio .portfolio-item {
+  }
+  #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
   border-color: #183d5d;
   border-style: solid;
   padding: 1.5rem;
-  
+  }
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
