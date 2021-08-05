@@ -955,7 +955,6 @@ progress {
   flex: 0 0 auto;
   width: 100%;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .offset-1 {
@@ -1126,6 +1125,7 @@ progress {
   .col-sm-12 {
     flex: 0 0 auto;
     width: 100%;
+    padding-bottom: 2rem;
   }
 
   .offset-sm-0 {
@@ -11013,14 +11013,14 @@ header.masthead {
   
 }
 header.masthead .masthead-subheading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: italic;
   line-height: 1.5rem;
-  margin-bottom: 25px;
+  margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 2.5rem;
   font-weight: 0;
   line-height: 3.25rem;
   margin-bottom: 2rem;
