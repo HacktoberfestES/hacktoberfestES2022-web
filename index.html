@@ -31,7 +31,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">¡Participa!</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Participa</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Organiza</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
@@ -51,25 +51,41 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">¡Participa!</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Participa</h2>
+                    <h3 class="section-subheading text-muted"> ¡Divíertete y aprende colaborando en proyectos de código abierto!</h3>
                 </div>
                 <div class="row text-center justify-content-center">
-                    <div class="col-md-12 col-lg-6 col-xl-4">
-                        <span class="fa-stack fa-4x">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <a class="fa-stack fa-4x" href="https://hacktoberfest.digitalocean.com/" alt="DigitalOcean" target="blank">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Apúntate en DigitalOcean</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        </a>
+                        <h4 class="my-3">Apúntate en la web oficial</h4>
+                        <p class="text-muted">Tras enviar 5 pull requests recibirás en tu casa una camiseta del Hacktoberfest 2021, edición limitada. También puedes tomar la vía verde y plantar árboles en vez de camisetas.</p>
                     </div>
-                    <div class="col-md-12 col-lg-6 col-xl-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
-                        </span>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <a class="fa-stack fa-4x" href="" alt="Discord" target="blank">
+                            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
+                            <i class="fab fa-discord fa-stack-2x text-primary"></i>
+                        </a>
                         <h4 class="my-3">Únete al Discord</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p class="text-muted">En el canal de Discord encontrarás ...</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <a class="fa-stack fa-4x" href="#portfolio" alt="Proyectos">
+                            <!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
+                            <i class="fab fa-github fa-stack-2x text-primary"></i>
+                        </a>
+                        <h4 class="my-3">Elige que proyectos te interesan</h4>
+                        <p class="text-muted">Puedes contribuir a cualquier proyecto que esté en Github. Nosotros prepararemos una serie de proyectos específicos, en los que contaremos con personas mentorizando, para facilitar la colaboración.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <a class="fa-stack fa-4x" data-bs-toggle="modal" href="#calendario">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="far fa-calendar-plus fa-stack-1x fa-inverse"></i>
+                        </a>
+                        <h4 class="my-3">Resérvate la fecha</h4>
+                        <p class="text-muted">Aparte del día de inicio del evento, los grupos de trabajo deciden su propias reglas en cuanto a dedicación. Pueden trabajar todos los días, quedar los fines de semana para hacer un sprint...</p>
                     </div>
                 </div>
             </div>
@@ -79,7 +95,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Proyectos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Aquí encontrarás algunos de los proyectos en los que puedes participar</h3>
                 </div>
                 <div class="row justify-content-center bg-white">
                     <div class="col-lg-6 col-12">
@@ -213,6 +229,39 @@
             </div>
         </section>
         <!-- Portfolio Modals-->
+        <!-- Calendario modal popup -->
+        <div class="portfolio-modal modal fade" id="calendario" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Calendario-->
+                                    <h2 class="text-uppercase mb-4">Calendario</h2>
+                                    <h4 class="my-3">Domingo 4 de Octubre - 16:00h CET/UTC+2</h4>
+                                    <ul class="list-inline mb-4">
+                                        <li>Bienvenida</li>
+                                        <li>Presentación de proyectos</li>
+                                        <li>Tutorial de iniciación: uso de git y cómo crear tu primera Pull Request</li>
+                                        <li>¡Comienza el hacking!</li>
+                                    </ul>
+                                    <h4 class="my-3">4-31 de Octubre</h4>
+                                    <ul class="list-inline mb-4">
+                                        <li>Hacking libre por grupos, con vuestra propia agenda</li>
+                                    </ul>
+                                    <h4 class="my-3">Domingo 1 de Noviembre</h4>
+                                    <ul class="list-inline">
+                                        <li>Presentación de logros en los proyectos y wrap-up</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Portfolio item 1 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
