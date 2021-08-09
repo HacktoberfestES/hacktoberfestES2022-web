@@ -209,7 +209,7 @@ sup {
 
 a {
   color: #ff8ae2;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #ff8ae2;
@@ -7418,7 +7418,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #9c4668 !important;
+  background-color: #ff8ae2 !important;
 }
 
 .bg-secondary {
