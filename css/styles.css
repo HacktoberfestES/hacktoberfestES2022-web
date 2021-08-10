@@ -7358,11 +7358,11 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #9c4668 !important;
+  color: #ff8ae2 !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #9c4668 !important;
 }
 
 .text-success {
@@ -7382,11 +7382,11 @@ textarea.form-control-lg {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #93c2db !important;
 }
 
 .text-dark {
-  color: #212529 !important;
+  color: #183d5d !important;
 }
 
 .text-white {
