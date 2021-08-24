@@ -127,7 +127,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 abbr[title],
@@ -631,7 +631,8 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    /* max-width: 1320px */;
+    max-width: 1140px;
   }
 }
 .row {
@@ -2937,7 +2938,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color:#ff8ae2;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -4281,13 +4282,14 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
   word-wrap: break-word;
   background-clip: border-box;
   border: 1px solid #9c4668;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
   border-radius: 0.25rem;
-  margin-bottom: 1rem;
+  margin: 1rem auto 0;
 }
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -7447,7 +7449,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  background-color: #183d5d !important;
+  background-color: #072540 !important;
 }
 
 .bg-body {
@@ -10877,11 +10879,11 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
-.page-section#portfolio {
-  padding: 6rem 0 0 0;
+.page-section#team {
+  padding: 4rem 0 2rem 0;
 }
 
 .page-section h2.section-heading, .page-section .section-heading.h2 {
@@ -11055,18 +11057,23 @@ header.masthead .masthead-heading {
 #portfolio .columns {
 	column-width: 320px;
 	column-gap: 15px;
-  width: 85%;
   margin: auto;
 }
 
 #portfolio .portfolio-item {
 	background: rgb(255, 255, 255);
-	border: 2px solid #fcfcfc;
 	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
 	margin: 0 2px 15px;
 	padding: 2rem;
   display: inline-block;
   width: 98%;
+  border-radius: 0.25rem;
+  transition: opacity .4s ease-in-out;
+}
+
+
+#portfolio .columns:hover .portfolio-item:not(:hover) {
+	opacity: 0.4;
 }
 
 #portfolio .portfolio-item .frame img{
@@ -11085,7 +11092,7 @@ header.masthead .masthead-heading {
   display: block;
   background-color: white;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+/* #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11102,7 +11109,7 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 50%;
-}
+} */
 #portfolio .portfolio-item a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
@@ -11354,7 +11361,8 @@ header.masthead .masthead-heading {
 }
 
 .img-brand {
-  height: 6rem;
+  height: auto;
+  width: 8rem;
 }
 
 /* 
@@ -11424,13 +11432,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #072540;
+  margin: auto;
 }
-
-/* Sección FAQ */
-/* #faq .collapse{
-  display: none;
-}
-#faq .show{
-  display: flex;
-} */
-
