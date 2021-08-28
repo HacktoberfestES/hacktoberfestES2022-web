@@ -11088,8 +11088,10 @@ header.masthead .masthead-heading {
   transition: opacity .4s ease-in-out;
 }
 
-#portfolio .columns:hover .portfolio-item:not(:hover) {
-	opacity: 0.4;
+@media (min-width: 576px){
+  #portfolio .columns:hover .portfolio-item:not(:hover) {
+    opacity: 0.4;
+  }
 }
 
 #portfolio .portfolio-item .frame img{
@@ -11139,8 +11141,10 @@ header.masthead .masthead-heading {
   transition: opacity .4s ease-in-out;
 }
 
-#apuntate .columns:hover .apuntate-item:not(:hover) {
-	opacity: 0.4;
+@media (min-width: 576px){
+  #apuntate .columns:hover .apuntate-item:not(:hover) {
+    opacity: 0.4;
+  }
 }
 
 #apuntate .apuntate-item{
@@ -11148,8 +11152,8 @@ header.masthead .masthead-heading {
 }
 
 .img-brand {
-  height: 5rem;
-  width: auto;
+  width: 15rem;
+  height: auto;
 }
 
 .footer {
