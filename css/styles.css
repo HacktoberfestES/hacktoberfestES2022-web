@@ -63,10 +63,10 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: #ff8ae2;
   background-color: currentColor;
   border: 0;
-  opacity: 0.25;
+  opacity: 100;
 }
 
 hr:not([size]) {
@@ -533,8 +533,13 @@ progress {
 }
 
 .list-inline {
-  padding-left: 0;
-  list-style: none;
+  padding-left: 1rem;
+  list-style: circle;
+  margin-bottom: 0;
+}
+
+.list-inline li {
+  padding-top: 0.5rem;
 }
 
 .list-inline-item {
@@ -956,7 +961,6 @@ progress {
   flex: 0 0 auto;
   width: 100%;
   padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .offset-1 {
@@ -1097,7 +1101,6 @@ progress {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
-    padding-bottom: 2rem;
   }
 
   .col-sm-7 {
@@ -1273,7 +1276,6 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
-    padding: 2rem;
   }
 
   .col-md-7 {
@@ -1438,7 +1440,6 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-    padding: 2rem;
   }
 
   .col-lg-5 {
@@ -4263,8 +4264,8 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: #fff;
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -7112,7 +7113,7 @@ textarea.form-control-lg {
 }
 
 .py-0 {
-  padding-top: 0 !important;
+  padding-top: 0 !important; my
   padding-bottom: 0 !important;
 }
 
@@ -10889,7 +10890,7 @@ p {
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -10918,17 +10919,18 @@ p {
   align-items: center;
   justify-content: center;
   padding: 0;
-  border-left: 1px solid white;
+  border-left: 1px solid #072540;
 }
 
 .btn-social:hover{
-  color: #ff8ae2;
+  color: #072540;
 }
 
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #072540;
+  font-weight: 700;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10953,7 +10955,6 @@ p {
   font-size: 1rem;
   color: #fff;
   letter-spacing: 0.0625em;
-  font-weight: 700;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11005,8 +11006,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: 6rem;
+  padding-top: 9rem;
+  padding-bottom: 5rem;
   text-align: center;
   color: #fff;
   background-image: /* url("../assets/img/flores-bottom.png"), url("../assets/img/flores-top.png"),  */radial-gradient(circle, #072540 0, #183d5d 200%);
@@ -11018,7 +11019,7 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.2rem;
-  font-style: italic;
+
   line-height: 1.5rem;
   margin-bottom: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11032,15 +11033,15 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.masthead {
+  /* header.masthead {
   padding-top: 17rem;
   padding-bottom: 12.5rem;
-  }
+  } */
   header.masthead .masthead-subheading {
-  font-size: 2.25rem;
-  font-style: italic;
-  line-height: 2.25rem;
-  margin-bottom: 4rem;
+  font-size: 1.5rem;
+
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
   }
   header.masthead .masthead-heading {
   font-size: 5rem;
@@ -11062,13 +11063,14 @@ header.masthead .masthead-heading {
 	column-width: 320px;
 	column-gap: 15px;
   margin: auto;
+  max-width: 100%;
 }
 
 #portfolio .portfolio-item {
 	background: rgb(255, 255, 255);
-	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
-	margin: 0 2px 15px;
-	padding: 2rem;
+	box-shadow: 0 1px 2px #183d5d;
+	margin: 0 0.8rem 1.2rem;
+	padding: 1.5rem;
   display: inline-block;
   width: 98%;
   border-radius: 0.25rem;
@@ -11114,7 +11116,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 50%;
 } */
-#portfolio .portfolio-item a, a:hover, a:focus, a:active {
+#portfolio a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
 }
@@ -11133,11 +11135,6 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-description{
   margin-bottom: 0;
-}
-@media(max-width: 768px){
-  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-description{
-    display: none;
-  }
 }
 
 /* .portfolio-modal .modal-dialog {
@@ -11435,6 +11432,53 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #072540;
   margin: auto;
 }
+
+#intro p{
+  padding-top: 0.5rem;
+}
+
+#intro a{
+  font-weight: bold;
+}
+
+#intro .col-12 {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px){
+  #intro .col-lg-6:first-child {
+    padding-right: 2rem;
+  }
+  
+  #intro .col-lg-6:last-child {
+    padding-left: 2rem;
+  }
+}
+
+#apuntate .columns {
+	column-width: 320px;
+	column-gap: 1.2rem;
+  margin: auto;
+  max-width: 100%;
+}
+
+#apuntate .apuntate-item{
+  border: 1px solid #183d5d;
+	margin: 0 0.8rem 1.2rem;
+	padding: 1.5rem;
+  display: inline-block;
+  width: 98%;
+  border-radius: 0.25rem;
+  transition: opacity .4s ease-in-out;
+}
+
+#apuntate .columns:hover .apuntate-item:not(:hover) {
+	opacity: 0.4;
+}
+
+#apuntate .apuntate-item{
+  color: inherit;
+}
+
