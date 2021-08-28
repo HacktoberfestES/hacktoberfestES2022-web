@@ -636,7 +636,6 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    /* max-width: 1320px */;
     max-width: 1140px;
   }
 }
@@ -7114,7 +7113,7 @@ textarea.form-control-lg {
 }
 
 .py-0 {
-  padding-top: 0 !important; my
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
