@@ -11090,8 +11090,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 576px){
   #portfolio .portfolio-item:hover {
-    border: 5px solid #ff8ae2;
-    border-style: outset;
+    outline: 5px solid #ff8ae2;
   }
 }
 
@@ -11145,8 +11144,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 576px){
   #apuntate .apuntate-item:hover {
-    border: 5px solid #ff8ae2;
-    border-style: outset;
+    outline: 5px solid #ff8ae2;
   }
 }
 
