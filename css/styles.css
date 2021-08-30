@@ -532,6 +532,10 @@ progress {
   list-style: none;
 }
 
+.list-unstyled li {
+  padding-top: 0.1rem;
+}
+
 .list-inline {
   padding-left: 1rem;
   list-style: circle;
@@ -11079,7 +11083,6 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item {
 	background: rgb(255, 255, 255);
 	box-shadow: 0 1px 2px #183d5d;
-  border: 1px solid #183d5d;
 	margin: 0 2px 15px;
 	padding: 1.5rem;
   display: inline-block;
@@ -11125,6 +11128,10 @@ header.masthead .masthead-heading {
   text-align: justify;
 }
 
+#portfolio .portfolio-item .list-unstyled{
+  text-align: justify;
+}
+
 #apuntate .columns {
 	column-width: 320px;
 	column-gap: 15px;
@@ -11132,7 +11139,6 @@ header.masthead .masthead-heading {
 }
 
 #apuntate .apuntate-item{
-  box-shadow: 0 1px 2px #183d5d;
   border: 1px solid #183d5d;
 	margin: 0 2px 15px;
 	padding: 1.5rem;
