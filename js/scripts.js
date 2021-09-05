@@ -81,31 +81,5 @@ window.addEventListener('DOMContentLoaded', event => {
     document.getElementById("demo").innerHTML = "EXPIRED";
     }
     }, 1000);
-
-
-    //FAQ - collapse
-
-    const allCards = document.querySelectorAll(".card");
-
-    for (card of allCards){
-        let cardHeader = card.querySelector(".card-header");
-        let cardCollapsible = card.querySelector(cardHeader.getAttribute("href"));
-        let plus = card.querySelector(".plus");
-        let minus = card.querySelector(".minus");
-
-        cardHeader.addEventListener("click", function(){
-
-            if(cardCollapsible.getAttribute("class")=="collapse"){
-                cardCollapsible.className = "show";
-                plus.style.display = "none";
-                minus.style.display = "inline";    
-            } else {
-                cardCollapsible.className = "collapse";
-                minus.style.display = "none";
-                plus.style.display = "inline"; 
-            }
-           
-        });    
-    }
    
 });
