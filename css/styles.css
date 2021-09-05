@@ -11092,13 +11092,13 @@ header.masthead .masthead-heading {
   text-align: justify;
 }
 
-#apuntate .columns {
+#registrate .columns {
 	column-width: 320px;
 	column-gap: 15px;
   margin: auto;
 }
 
-#apuntate .apuntate-item{
+#registrate .registrate-item{
   border: 1px solid #183d5d;
 	margin: 0 2px 15px;
 	padding: 1.5rem;
@@ -11109,12 +11109,12 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 576px){
-  #apuntate .apuntate-item:hover {
+  #registrate .registrate-item:hover {
     outline: 5px solid #ff8ae2;
   }
 }
 
-#apuntate .apuntate-item{
+#registrate .registrate-item{
   color: inherit;
 }
 
@@ -11122,6 +11122,12 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+
+#agenda .item-agenda:last-child{
+
+  margin-top: 2rem;
+}
+
 
 .img-brand {
   width: 15rem;
