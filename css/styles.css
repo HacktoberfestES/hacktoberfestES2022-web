@@ -11057,7 +11057,7 @@ header.masthead .masthead-heading {
   }
 }
 
-#proyectos .proyectos-item .frame{
+#proyectos .proyectos-item .frame {
   margin-bottom: 1.5rem;
   height: 8rem;
   display: flex;
@@ -11124,10 +11124,18 @@ header.masthead .masthead-heading {
 }
 
 #agenda .item-agenda:last-child{
-
   margin-top: 2rem;
 }
 
+#agenda .frame {
+  display: flex;
+  justify-content: left;
+  align-items: center
+} 
+
+#agenda .frame img{
+  height: 8rem;
+} 
 
 .img-brand {
   width: 15rem;
