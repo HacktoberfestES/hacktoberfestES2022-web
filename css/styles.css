@@ -11034,13 +11034,13 @@ header.masthead .masthead-heading {
   }
 }
 
-#portfolio .columns {
+#proyectos .columns {
 	column-width: 320px;
 	column-gap: 15px;
   margin: auto;
 }
 
-#portfolio .portfolio-item {
+#proyectos .proyectos-item {
 	background: rgb(255, 255, 255);
 	box-shadow: 0 1px 2px #183d5d;
 	margin: 0 2px 15px;
@@ -11052,43 +11052,43 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 576px){
-  #portfolio .portfolio-item:hover {
+  #proyectos .proyectos-item:hover {
     outline: 5px solid #ff8ae2;
   }
 }
 
-#portfolio .portfolio-item .frame{
+#proyectos .proyectos-item .frame{
   margin-bottom: 1.5rem;
   height: 8rem;
   display: flex;
   justify-content: center;
 } 
 
-#portfolio .portfolio-item .frame img{
+#proyectos .proyectos-item .frame img{
   object-fit: contain;
 } 
 
-#portfolio a, a:hover, a:focus, a:active {
+#proyectos a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: inherit;
 }
 
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+#proyectos .proyectos-item .proyectos-caption .proyectos-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0.5rem;
   text-align: center;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+#proyectos .proyectos-item .proyectos-caption .proyectos-caption-subheading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-description{
+#proyectos .proyectos-item .proyectos-caption .proyectos-caption-description{
   margin-bottom: 1rem;
   text-align: justify;
 }
 
-#portfolio .portfolio-item .list-unstyled{
+#proyectos .proyectos-item .list-unstyled{
   text-align: justify;
 }
 
