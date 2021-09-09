@@ -20,9 +20,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <!--<a class="navbar-brand" href="#page-top"><img src="assets/img/logo-h.png" alt="..." /></a>-->
                 <div class="navbar-countdown text-uppercase justify-content-left">
-                    <i class="far fa-clock fa-inverse"></i>
+                    <i class="far fa-clock"></i>
                     <span class="px-2" id="demo"></span>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,14 +42,14 @@
         <!-- Masthead-->
         <header class="masthead" id="inicio">
             <div class="container">
-                <div class="masthead-heading">HacktoberfestES 2021</div>
-                <hr>
-                <div class="masthead-subheading text-muted-dark-bg">diviértete, aprende y gana una camiseta contribuyendo al código abierto</div>
+                <div class="masthead-heading text-primary">HacktoberfestES</div>
+                <img src="assets/img/2021.png" alt="">
+                <div class="masthead-subheading text-muted-dark-bg">diviértete y aprende contribuyendo al código abierto</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#registrate">¡Regístrate!</a>
             </div>
         </header>
         <!-- Presentación -->
-        <section class="page-section py-4" id="intro">
+        <section class="page-section py-4 bg-light" id="intro">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6">
@@ -68,14 +67,14 @@
             </div>
         </section>
         <!-- Proyectos -->
-        <section class="page-section bg-light" id="proyectos">
+        <section class="page-section bg-primary" id="proyectos">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Proyectos</h2>
+                    <h2 class="section-heading text-uppercase text-white mb-5">Proyectos</h2>
                 </div>
                 <div class="columns">
                     <!-- Propuestas-->
-                    <a class="proyectos-item" href="https://github.com/HacktoberfestES/hacktoberfestES2021-web/issues/new?assignees=&labels=proyecto&template=proyecto.yaml&title=%5BPROYECTO%5D+%3Cnombre+del+proyecto%3E+-+%3Ctecnolog%C3%ADa+principal%3E" target="blank" style="background-color: #0d2d4a; color: white;">
+                    <a class="proyectos-item" href="https://github.com/HacktoberfestES/hacktoberfestES2021-web/issues/new?assignees=&labels=proyecto&template=proyecto.yaml&title=%5BPROYECTO%5D+%3Cnombre+del+proyecto%3E+-+%3Ctecnolog%C3%ADa+principal%3E" target="blank" style="background-color: #2b3531; color: #f4f0e1;">
                         <div class="proyectos-caption">
                             <div class="proyectos-caption-heading">¿Conoces un proyecto sencillo que puedas mentorizar? <span class="text-primary">Proponlo creando un issue</span></div>
                             <p class="proyectos-caption-description">¿Qué tipo de proyectos buscamos?</p>
@@ -305,26 +304,25 @@
         <section class="page-section" id="registrate">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">¡Regístrate!</h2>
+                    <h2 class="section-heading text-uppercase mb-5">¡Regístrate!</h2>
                 </div>
                 <div class="columns text-center">
                     <a class="registrate-item" href="https://hacktoberfest.digitalocean.com/" title="DigitalOcean" target="blank">
-                        <i class="fab fa-digital-ocean fa-6x" style="color: #0080ff"></i>
-                        <h4 class="my-3" style="color: #0080ff">DigitalOcean</h4>
+                        <i class="fab fa-digital-ocean fa-6x" style="color: #b53a25"></i>
+                        <h4 class="my-3" style="color: #b53a25">DigitalOcean</h4>
                         <p class="">Inscríbete en la web oficial de DigitalOcean para que se contabilicen tus PRs aceptadas durante el mes de octubre.</p>
                     </a>
                     <a class="registrate-item" href="https://discord.gg/pgtkJcqVN4" title="Discord" target="blank">
-                            <i class="fab fa-discord fa-6x" style="color: #5662f6"></i>
-                            <h4 class="my-3" style="color: #5662f6">Discord</h4>
+                            <i class="fab fa-discord fa-6x" style="color: #91a88c"></i>
+                            <h4 class="my-3" style="color: #91a88c">Discord</h4>
                             <p class="">Entra en el servidor Discord del evento para no perderte las últimas novedades, conocer a tus compañeros/as y coordinar el trabajo.</p>
                     </a>
                     <a class="registrate-item" href="#" data-token="cc8cae6dad6a17709b876a37092fec9d" onclick="mjOpenPopin(event, this)" title="Newsletter">
-                            <i class="fas fa-envelope-open-text fa-6x" style="color: #93c2db"></i>
-                            <h4 class="my-3" style="color: #93c2db">Newsletter</h4>
+                            <i class="fas fa-envelope-open-text fa-6x" style="color: #a88771"></i>
+                            <h4 class="my-3" style="color: #a88771">Newsletter</h4>
                             <p class="">Suscríbete a la newsletter para no perderte nada. Te informaremos sobre sesiones de trabajo, nuevas actividades y talleres, etc.</p>
                     </a>
                 </div>
-
                 <h4 class="text-center mt-4">Por favor, lee y respeta nuestro <a href="https://github.com/python-spain/documentacion/blob/master/codigo-conducta.rst" target="_blank">código de conducta</a>. ¡Gracias!</h4>
             </div>
         </section>
@@ -337,46 +335,47 @@
                 <div class="container">
                     <div class="row justify-content-center text-white">
                         <!-- Calendario-->
+                        <div class="divider" style="width: 100%; height: 2rem;"></div>
                         <div class="item-agenda">
                             <h6 class="text-light">Domingo 26 de Septiembre (por confirmar) - 16:00h <a href="https://time.is/UTC+2">CET/UTC+2</a></h6>
                             <h4 class="text-primary">[TALLER] Aprendre a usar Git</h4>
                             <div class="frame">
                                 <img class="img-fluid" src="assets/img/agenda/github.png" alt="Street-fighter-cli"/>
-                                <div class="ms-3 py-0">
+                                <div class="description0">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat mas.</p>
-                                    <a class="btn btn-secondary mt-2" href="" target="_blank">Saber más</a>    
+                                    <a class="btn btn-light mt-2" href="" target="_blank">Saber más</a>    
                                 </div>
                             </div>
                         </div>
-                        <hr>
+                        <div class="divider" style="width: 100%; height: 2rem;"></div>
                         <div class="item-agenda">
                             <h6 class="text-light">Viernes 1 de Octubre</h6>
                             <h4 class="text-primary">¡Comienza el hacking!</h4>
                             <p>Los grupos deciden ...</p>
                         </div>
-                        <hr>
+                        <div class="divider" style="width: 100%; height: 2rem;"></div>
                         <div class="item-agenda">
                             <h6 class="text-light">Sábado 18 de Octubre</h6>
                             <h4 class="text-primary">[TALLER] Street-fighter-cli</h4>
                             <div class="frame">
                                 <img class="img-fluid" src="assets/img/agenda/street-fighter-cli.png" alt="Street-fighter-cli"/>
-                                <div class="ms-3 py-0">
+                                <div class="description">
                                     <p>Crea tu própio juego juego de peleas por turnos 👊🏼 . En este taller aprenderas los fundamentos para crear un juego en el que varios personajes se atacan entre ellos. Además, repasarás conceptos básicos de programación como la programación orientada a objetos entre muchos otros.</p>
-                                    <a class="btn btn-secondary mt-2" href="" target="_blank">Saber más</a>    
+                                    <a class="btn btn-light mt-2" href="" target="_blank">Saber más</a>    
                                 </div>
                             </div>
                         </div>
-                        <hr>
+                        <div class="divider" style="width: 100%; height: 2rem;"></div>
                         <div class="item-agenda">
                             <h6 class="text-light">Domingo 31 de Octubre</h6>
                             <h4 class="text-primary">Presentación de logros en los proyectos y wrap-up</h4>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat mas.</p>
                         </div>
-                        <hr>
+                        <div class="divider" style="width: 100%; height: 2rem;"></div>
                         <div class="item-agenda text-center">
                             <h4>¿Quieres proponer una charla, taller o similar?</h4>
                             <p class="text-light">Buscamos actividades relacionadas con contribuciones a software libre y código abierto</p>
-                            <a class="btn btn-primary btn-xl text-uppercase mt-3" href="https://github.com/HacktoberfestES/hacktoberfestES2021-web/issues/new?assignees=&labels=actividad&template=actividad.yaml&title=%5BACTIVIDAD%5D+%3Cnombre+de+la+actividad%3E" target="_blank">¡Envía tu propuesta!</a>
+                            <a class="btn btn-light btn-xl text-uppercase mt-3" href="https://github.com/HacktoberfestES/hacktoberfestES2021-web/issues/new?assignees=&labels=actividad&template=actividad.yaml&title=%5BACTIVIDAD%5D+%3Cnombre+de+la+actividad%3E" target="_blank">¡Envía tu propuesta!</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +385,7 @@
         <section class="page-section" id="organiza">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase mb-4">Organiza</h2>
+                    <h2 class="section-heading text-uppercase mb-3 text-light">Organiza</h2>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-sm-6 col-12 text-center text-sm-end">
@@ -399,10 +398,10 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer py-4">
+        <footer class="footer pb-4">
             <div class="container">
                 <div class="text-center">
-                    <h6 class="mx-2 mb-3">Si tienes cualquier duda escríbenos a <a href="mailto:hacktoberfestes@googlegroups.com">hacktoberfestes@googlegroups.com</a></h6>
+                    <h6 class="mx-2 mb-3 text-light">Si tienes cualquier duda escríbenos a <a href="mailto:hacktoberfestes@googlegroups.com">hacktoberfestes@googlegroups.com</a></h6>
                     <a class="btn-social" style="border: none" href="https://twitter.com/HacktoberfestES"><i class="fab fa-twitter"></i></a>
                     <a class="btn-social" href="https://discord.gg/pgtkJcqVN4"><i class="fab fa-discord"></i></a>
                     <a class="btn-social" href="https://www.youtube.com/hashtag/hacktoberfestes"><i class="fab fa-youtube"></i></a>
