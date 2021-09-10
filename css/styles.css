@@ -10499,23 +10499,13 @@ header.masthead img{
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
 }
 #proyectos .proyectos-item .proyectos-caption .proyectos-caption-subheading {
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #proyectos .proyectos-item .proyectos-caption .proyectos-caption-description{
   margin-bottom: 1rem;
-}
-
-@media (min-width: 768px){
-  #proyectos .proyectos-item .proyectos-caption .proyectos-caption-description{
-    text-align: justify;
-  }
-  
-  #proyectos .proyectos-item .list-unstyled{
-    text-align: justify;
-  }
 }
 
 #registrate .columns {
