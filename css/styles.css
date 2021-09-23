@@ -10480,7 +10480,8 @@ header.masthead img{
 
 #proyectos .proyectos-item .frame {
   margin-bottom: 1.5rem;
-  height: 8rem;
+  margin-top: 0.5rem;
+  max-height: 8rem;
   display: flex;
   justify-content: center;
 } 
