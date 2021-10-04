@@ -10552,11 +10552,11 @@ header.masthead img{
 #agenda .frame {
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: flex-start;
 } 
 
 #agenda .frame img{
-  height: 8rem;
+  width: 8rem;
 }
 
 #agenda .frame .description{
