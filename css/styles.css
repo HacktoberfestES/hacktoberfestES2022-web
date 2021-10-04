@@ -10510,18 +10510,10 @@ header.masthead img{
   margin-bottom: 1rem;
 }
 
-#registrate .columns {
-	column-width: 320px;
-	column-gap: 15px;
-  margin: auto;
-}
-
 #registrate .registrate-item{
   border: 2px solid #91a88c;
-	margin: 0 2px 15px;
 	padding: 1.5rem;
   display: block;
-  width: 98%;
   border-radius: 0.25rem;
 }
 
