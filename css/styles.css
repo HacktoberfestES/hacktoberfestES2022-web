@@ -10472,7 +10472,6 @@ header.masthead img{
   display: inline-block;
   width: 98%;
   border-radius: 0.25rem;
-  transition: opacity .4s ease-in-out;
 }
 
 @media (min-width: 576px){
@@ -10522,10 +10521,9 @@ header.masthead img{
   border: 2px solid #91a88c;
 	margin: 0 2px 15px;
 	padding: 1.5rem;
-  display: inline-block;
+  display: block;
   width: 98%;
   border-radius: 0.25rem;
-  transition: opacity .4s ease-in-out;
 }
 
 @media (min-width: 576px){
