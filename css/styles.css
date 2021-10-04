@@ -2980,7 +2980,7 @@ textarea.form-control-lg {
 .btn-secondary {
   color: #f74700;
   text-align: left;
-  padding: ;
+  padding: 0;
   border: none;
 }
 .btn-secondary:hover {
