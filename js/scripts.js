@@ -51,7 +51,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Countdown
+/*     // Countdown
 
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 1, 2021 00:00:00").getTime();
@@ -81,5 +81,30 @@ window.addEventListener('DOMContentLoaded', event => {
     document.getElementById("demo").innerHTML = "EXPIRED";
     }
     }, 1000);
+
+ */    //FAQ - collapse
+
+    const allItems = document.querySelectorAll(".item-agenda");
+
+    for (item of allItems){
+        let title = item.querySelector(".title");
+        let collapsible = item.querySelector(title.getAttribute("href"));
+        let plus = item.querySelector(".plus");
+        let minus = item.querySelector(".minus");
+
+        title.addEventListener("click", function(){
+
+            if(collapsible.getAttribute("class")=="collapse"){
+                collapsible.className = "frame";
+                plus.style.display = "none";
+                minus.style.display = "inline";    
+            } else {
+                collapsible.className = "collapse";
+                minus.style.display = "none";
+                plus.style.display = "inline"; 
+            }
+
+        });    
+    }
    
 });

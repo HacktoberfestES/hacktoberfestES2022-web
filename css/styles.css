@@ -2978,14 +2978,13 @@ textarea.form-control-lg {
 }
 
 .btn-secondary {
-  color: #f4f0e1;
-  background-color: #b53a25;
-  border-color: #b53a25;
+  color: #f74700;
+  text-align: left;
+  padding: ;
+  border: none;
 }
 .btn-secondary:hover {
-  color: #f8f9fa;
-  background-color: #a88771;
-  border-color: #a88771;
+  color: #b53a25;
 }
 
 .btn-light {
@@ -10547,10 +10546,18 @@ header.masthead img{
   margin-top: 2rem;
 }
 
+#agenda .title{
+  display: flex;
+}
+
 #agenda .frame {
   display: flex;
   justify-content: left;
   align-items: flex-start;
+} 
+
+#agenda #collapsible .collapse{
+  display: none;
 } 
 
 #agenda .frame img{
@@ -10560,7 +10567,6 @@ header.masthead img{
 #agenda .frame .description{
   margin-left: 2rem;
 }
-
 
 @media (max-width: 576px){
   #agenda .item-agenda{
@@ -10572,7 +10578,7 @@ header.masthead img{
   }
   #agenda .frame img{
     height: 6rem;
-    margin-top: 1rem;
+    width: auto;
     margin-bottom: 1rem;
   } 
   #agenda .frame .description{
@@ -10580,8 +10586,6 @@ header.masthead img{
   }
   
 }
-
-
 
 .img-brand {
   width: 15rem;
