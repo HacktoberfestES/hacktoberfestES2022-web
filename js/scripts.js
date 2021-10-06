@@ -82,26 +82,40 @@ window.addEventListener('DOMContentLoaded', event => {
     }
     }, 1000);
 
- */    //FAQ - collapse
+ */    
+    //Agenda - collapse
 
+    const now = new Date();
     const allItems = document.querySelectorAll(".item-agenda");
 
     for (item of allItems){
         let title = item.querySelector(".title");
         let collapsible = item.querySelector(title.getAttribute("href"));
-        let plus = item.querySelector(".plus");
-        let minus = item.querySelector(".minus");
+        let date = new Date (item.querySelector("time").getAttribute("datetime"));
+        let angleRight = item.querySelector(".plus");
+        let angleDown = item.querySelector(".minus");
+
+        console.log(date);
+        console.log(now);
+
+        if (date < now){
+            collapsible.className = "collapse";
+            angleDown.style.display = "none";
+        } else {
+            collapsible.className = "frame";
+            angleRight.style.display = "none";
+        }
 
         title.addEventListener("click", function(){
 
             if(collapsible.getAttribute("class")=="collapse"){
                 collapsible.className = "frame";
-                plus.style.display = "none";
-                minus.style.display = "inline";    
+                angleRight.style.display = "none";
+                angleDown.style.display = "inline";    
             } else {
                 collapsible.className = "collapse";
-                minus.style.display = "none";
-                plus.style.display = "inline"; 
+                angleDown.style.display = "none";
+                angleRight.style.display = "inline"; 
             }
 
         });    
