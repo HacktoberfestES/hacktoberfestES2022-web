@@ -10554,6 +10554,7 @@ header.masthead img{
 
 #agenda .frame img{
   width: 8rem;
+  margin-top: 0.5rem;
 }
 
 #agenda .frame .description{
