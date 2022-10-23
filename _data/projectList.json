@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Poliastro",
+        "description": "Poliastro es una biblioteca Python para Astrodinámica interactiva. Es rápida, fácil de usar, maneja unidades físicas, y tiene numerosas visualizaciones orbitales.",
+        "url": "https://github.com/poliastro/poliastro",
+        "img": "assets/img/proyectos/poliastro.png",
+        "technologies": "Python, Jupyter, Numba, MyST (Markdown)",
+        "community": "Python España"
+    }
+]

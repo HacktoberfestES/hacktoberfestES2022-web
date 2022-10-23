@@ -93,25 +93,29 @@
                         </div>
                     </a>
                     <!-- Proyecto 1: Poliastro-->
-                    <a class="proyectos-item" href="https://github.com/poliastro/poliastro" target="blank">
+                    {% for project in projectList %}
+                    <a class="proyectos-item" href="{{ project.url }}" target="blank">
                         <div class="frame">
-                            <img class="img-fluid" src="assets/img/proyectos/poliastro.png" alt="Poliastro" />
+                            <img class="img-fluid" src="{{ project.img }}" alt="{{ project.name }}" />
                         </div>
                         <div class="proyectos-caption">
-                            <div class="proyectos-caption-heading" style="color: #3873a3">Poliastro</div>
-                            <p class="proyectos-caption-description">Poliastro es una biblioteca Python para Astrodinámica interactiva. Es rápida, fácil de usar, maneja unidades físicas, y tiene numerosas visualizaciones orbitales.</p>
+                            <div class="proyectos-caption-heading" style="color: #3873a3">{{ project.name }}</div>
+                            <p class="proyectos-caption-description">{{ project.description }}</p>
                             <ul class="list-unstyled">
                                 <li>
                                     <strong>Tecnologías: </strong>
-                                    Python, Jupyter, Numba, MyST (Markdown)
+                                    {{ project.technologies }}
                                 </li>
+                                {% if project.community %}
                                 <li>
                                     <strong>Comunidad: </strong>
-                                    Python España
+                                    {{ project.community }}
                                 </li>
+                                {% endif %}
                             </ul>
                         </div>
                     </a>
+                    {% endfor %}
                     <!-- Proyecto 2: Python Docs ES-->
                     <a class="proyectos-item" href="https://python-docs-es.readthedocs.io/es/3.9/CONTRIBUTING.html" target="blank">
                         <div class="frame">
